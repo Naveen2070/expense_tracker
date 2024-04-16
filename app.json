@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "expense_tracker",
-    "slug": "expense_tracker",
+    "slug": "expense-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.naveen.r.expensetracker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "57d881c9-06de-44ec-b185-45a5c56ba052"
+      }
+    },
+    "owner": "naveen.r"
   }
 }
